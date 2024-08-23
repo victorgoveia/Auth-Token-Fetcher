@@ -13,7 +13,7 @@ def get_token():
     url = "https://suaurl.com.br/api/auth"
 
     payload = {
-        "email": LOGIN,  
+        "email": LOGIN,
         "password": PASSWORD,
     }
     req = requests.post(url, json=payload)

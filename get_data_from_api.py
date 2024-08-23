@@ -35,7 +35,6 @@ def fetch_all_data(headers):
     return all_data
 
 
-
 token = get_token()
 if not token:
     print("Falha ao obter o token. Verifique suas credenciais.")
@@ -49,5 +48,3 @@ headers = {
 }
 
 all_data = fetch_all_data(headers)
-
-print("Dados convertidos para Excel com sucesso.")
